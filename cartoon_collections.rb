@@ -18,10 +18,9 @@ end
 #that is a type of cheese.
 #The types of cheese that appear are "cheddar", "gouda", and "camembert".
 def find_the_cheese(snacks)
-  #cheese_types = ["cheddar", "gouda", "camembert"]
   cheeses = %w(gouda cheddar camembert)
-snacks.find do |maybe_cheese|
-cheeses.include?(maybe_cheese)
+  snacks.find do |maybe_cheese|
+    cheeses.include?(maybe_cheese)
 #  return "#{cheese}"
-end
+  end
 end
