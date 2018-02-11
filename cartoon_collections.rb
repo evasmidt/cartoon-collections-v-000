@@ -21,7 +21,7 @@ def find_the_cheese(snacks)
   #cheese_types = ["cheddar", "gouda", "camembert"]
   cheeses = %w(gouda cheddar camembert)
 snacks.find do |maybe_cheese|
-if snacks.include?("cheddar" || "gouda" || "camembert")
-  return "#{cheese}"
+cheeses.include?(maybe_cheese)
+#  return "#{cheese}"
 end
 end
