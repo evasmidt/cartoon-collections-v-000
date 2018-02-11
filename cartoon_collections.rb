@@ -21,4 +21,5 @@ def find_the_cheese(snacks)
   cheese_types = ["cheddar", "gouda", "camembert"]
   
   snacks.include?("cheddar", "gouda", "camembert")
+  return "#{cheese}"
 end
