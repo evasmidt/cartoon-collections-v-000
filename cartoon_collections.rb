@@ -23,3 +23,4 @@ snacks.each do |cheese|
 if snacks.include?("cheddar" || "gouda" || "camembert")
   return "#{cheese}"
 end
+end
