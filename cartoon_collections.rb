@@ -13,9 +13,8 @@ end
 
 def long_planeteer_calls(calls)# code an argument here
   # Your code here
-    long_planeteer_calls.map.each |call|
-  if call.length > 4
-    true
+    planeteer_calls.any?  { |call| call.length > 4}
+
 end
 end
 
