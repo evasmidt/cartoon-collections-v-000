@@ -13,7 +13,10 @@ def long_planeteer_calls(planeteer_calls)
     planeteer_calls.any?  { |call| call.length > 4}
 end
 
-def find_the_cheese# code an argument here
-  # the array below is here to help
+#The find_the_cheese method should accept an array of strings. 
+#It should then look through these strings to find and return the first string 
+#that is a type of cheese. 
+#The types of cheese that appear are "cheddar", "gouda", and "camembert".
+def find_the_cheese()
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
