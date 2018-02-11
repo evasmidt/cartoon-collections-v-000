@@ -21,6 +21,5 @@ def find_the_cheese(snacks)
   cheeses = %w(gouda cheddar camembert)
   snacks.find do |maybe_cheese|
     cheeses.include?(maybe_cheese)
-#  return "#{cheese}"
   end
 end
